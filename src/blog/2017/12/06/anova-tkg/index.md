@@ -14,17 +14,17 @@ tags: ['blog']
 
 TK（RB）Gさんです。
 
-![ローストビーフの写真一枚](https://abroller.tech/wp-content/uploads/2017/12/868099614fd2a05f9c1c3a8944d4dde0-1.jpg)
+![ローストビーフの写真一枚](/assets/images/2017/12/868099614fd2a05f9c1c3a8944d4dde0-1.jpg)
 
-![引きでもう一枚](https://abroller.tech/wp-content/uploads/2017/12/c67d91fe1341389500f5a390393aeb5c.jpg)
+![引きでもう一枚](/assets/images/2017/12/c67d91fe1341389500f5a390393aeb5c.jpg)
 
 ちょっと離れて撮ってみました。
 
-![ディテールを強調](https://abroller.tech/wp-content/uploads/2017/12/IMG_20171206_084324.jpg)
+![ディテールを強調](/assets/images/2017/12/IMG_20171206_084324.jpg)
 
 HDR風にディテールを強調してみました。伝わりますか、お肉のテクスチャ。
 
-![黄身のアップ](https://abroller.tech/wp-content/uploads/2017/12/bbaf358768325313f403dc16ffaeafef.jpg)
+![黄身のアップ](/assets/images/2017/12/bbaf358768325313f403dc16ffaeafef.jpg)
 
 最後に黄身さんのどアップです。光り輝いています。
 

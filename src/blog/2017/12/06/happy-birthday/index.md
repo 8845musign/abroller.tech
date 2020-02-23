@@ -10,41 +10,41 @@ tags: ['blog']
 
 ※画像多めです。
 
-![ラッピングされた箱](https://abroller.tech/wp-content/uploads/2017/12/IMG_20171206_182521.jpg)
+![ラッピングされた箱](/assets/images/2017/12/IMG_20171206_182521.jpg)
 
 甲「プレゼントがあるんだ！」 乙「え！？なになに！？」
 
-![ラッピングを解いている様子](https://abroller.tech/wp-content/uploads/2017/12/IMG_20171206_182528.jpg)
+![ラッピングを解いている様子](/assets/images/2017/12/IMG_20171206_182528.jpg)
 
 スルスル 乙「楽しみだなぁ！」
 
-![洋菓子レモンパイ](https://abroller.tech/wp-content/uploads/2017/12/IMG_20171206_182600.jpg)
+![洋菓子レモンパイ](/assets/images/2017/12/IMG_20171206_182600.jpg)
 
 甲「じゃ～〜ん」 乙「うわぁ！」
 
-![姿を表したレモンパイ](https://abroller.tech/wp-content/uploads/2017/12/IMG_20171206_182651.jpg)
+![姿を表したレモンパイ](/assets/images/2017/12/IMG_20171206_182651.jpg)
 
 乙「ケーキ（レモンパイ）だぁぁぁ〜〜〜〜〜〜」
 
-![パイを眺める腹筋ローラー](https://abroller.tech/wp-content/uploads/2017/12/IMG_20171206_182731.jpg)
+![パイを眺める腹筋ローラー](/assets/images/2017/12/IMG_20171206_182731.jpg)
 
 腹筋ローラー「とっても美味しそう！」
 
-![じっくりとパイをみる腹筋ローラー](https://abroller.tech/wp-content/uploads/2017/12/IMG_20171206_182739.jpg)
+![じっくりとパイをみる腹筋ローラー](/assets/images/2017/12/IMG_20171206_182739.jpg)
 
 腹筋ローラー「うわあぁぁぁぁ、とっても嬉しいなぁ〜〜！！！」
 
 ボッ（ろうそくに火がつく音）
 
-![ローソクがたったパイ](https://abroller.tech/wp-content/uploads/2017/12/IMG_20171206_182916.jpg)
+![ローソクがたったパイ](/assets/images/2017/12/IMG_20171206_182916.jpg)
 
 みんな「ハッピバースデートゥーユー♪ハッピバースデートゥーユー♪ハッピバースデー腹筋ローラー♪」
 
-![さっきよりアップでうつった腹筋ローラーとパイ](https://abroller.tech/wp-content/uploads/2017/12/IMG_20171206_182957.jpg)腹筋ローラー「ふううううう」
+![さっきよりアップでうつった腹筋ローラーとパイ](/assets/images/2017/12/IMG_20171206_182957.jpg)腹筋ローラー「ふううううう」
 
 パチパチパチパチ
 
-![切り分けられたケーキ](https://abroller.tech/wp-content/uploads/2017/12/IMG_20171206_183503.jpg)
+![切り分けられたケーキ](/assets/images/2017/12/IMG_20171206_183503.jpg)
 
 腹筋ローラー「ケーキとっても美味しい！みんなありがとう！！！！とっても良い１年になりそうだよ！」
 
@@ -54,7 +54,7 @@ tags: ['blog']
 
 途中に出てくる歌の歌詞は実話（マジ）でした。
 
-![誕生日ケーキに刺さないようなローソク](https://abroller.tech/wp-content/uploads/2017/12/IMG_20171206_183056.jpg)
+![誕生日ケーキに刺さないようなローソク](/assets/images/2017/12/IMG_20171206_183056.jpg)
 
 パイに刺さってた（自分で買ってきた）ローソクはこちらです。
 

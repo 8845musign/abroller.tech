@@ -40,7 +40,7 @@ tags: ['blog']
 
 ## うんこフォントスロット
 
-![うんこフォントスロット](https://abroller.tech/wp-content/uploads/2017/12/unko.jpg)
+![うんこフォントスロット](/assets/images/2017/12/unko.jpg)
 
 - いろんな**うんこ**にランダムで出会えるよ！
 - 出会える**うんこ**は全部で28種類！

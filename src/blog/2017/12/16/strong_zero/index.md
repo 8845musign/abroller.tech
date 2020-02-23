@@ -4,7 +4,7 @@ date: "2017-12-16"
 tags: ['blog']
 ---
 
-![夜景と東京タワー](https://abroller.tech/wp-content/uploads/2017/12/tokyo-1.jpg)
+![夜景と東京タワー](/assets/images/2017/12/tokyo-1.jpg)
 
 「寒いな」
 

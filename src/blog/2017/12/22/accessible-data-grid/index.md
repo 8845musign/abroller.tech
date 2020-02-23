@@ -44,7 +44,7 @@ CSSグリッドなんかもあって紛らわしいので、まずはグリッ�
 
 ## 今回実装したグリッド
 
-\[caption id="attachment\_254" align="alignnone" width="900"\]![DataGrid](https://abroller.tech/wp-content/uploads/2017/12/data-grid.png) スクリーンショットです\[/caption\]
+\[caption id="attachment\_254" align="alignnone" width="900"\]![DataGrid](/assets/images/2017/12/data-grid.png) スクリーンショットです\[/caption\]
 
 こちらのページにサンプル実装をおいておきます。 [https://8845musign.github.io/accessible-data-grid/](https://8845musign.github.io/accessible-data-grid/)
 

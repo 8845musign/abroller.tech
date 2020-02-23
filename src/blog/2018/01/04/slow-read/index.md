@@ -4,7 +4,7 @@ date: "2018-01-04"
 tags: ['blog']
 ---
 
-![探偵帽をかぶったルーペと目](https://abroller.tech/wp-content/uploads/2018/01/849b696a2168cfb721b99e161f31ae02.png)
+![探偵帽をかぶったルーペと目](/assets/images/2018/01/849b696a2168cfb721b99e161f31ae02.png)
 
 あけまして腹筋しろよおめでとうございます。
 
@@ -35,7 +35,7 @@ tags: ['blog']
 
 #### まず見出しに頼る
 
-![](https://abroller.tech/wp-content/uploads/2018/01/a8518236cc5ad72735c6c74033e75499.png)
+![](/assets/images/2018/01/a8518236cc5ad72735c6c74033e75499.png)
 
 _この節で一番言っておきたいことは？_
 
@@ -45,7 +45,7 @@ _この節で一番言っておきたいことは？_
 
 #### 特徴的な構造を見つける
 
-![](https://abroller.tech/wp-content/uploads/2018/01/89ace8db343778fbe4d49e5426d26351.png)
+![](/assets/images/2018/01/89ace8db343778fbe4d49e5426d26351.png)
 
 _2\. 列挙もしくは対比されている内容_
 
@@ -60,7 +60,7 @@ _2\. 列挙もしくは対比されている内容_
 
 #### ストーリーを噛み砕く
 
-![](https://abroller.tech/wp-content/uploads/2018/01/89875e621ffb53f0579b214e2a24ec22.png)
+![](/assets/images/2018/01/89875e621ffb53f0579b214e2a24ec22.png)
 
 _3\. 「ストーリー」として語られている文章の要点は？_
 
@@ -70,7 +70,7 @@ _3\. 「ストーリー」として語られている文章の要点は？_
 
 #### ストーリーは知見の宝庫
 
-![](https://abroller.tech/wp-content/uploads/2018/01/40225da19a38c2e5dc6165e0f9cf0aae.png)
+![](/assets/images/2018/01/40225da19a38c2e5dc6165e0f9cf0aae.png)
 
 _4\. 個人的に大切だなと思った部分_
 
