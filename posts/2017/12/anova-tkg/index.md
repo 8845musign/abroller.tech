@@ -1,6 +1,7 @@
 ---
 title: "TK（RB）G食べた"
 date: "2017-12-06"
+tags: ['post']
 ---
 
  

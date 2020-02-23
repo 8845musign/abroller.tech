@@ -1,6 +1,7 @@
 ---
 title: "ショートショート「東京とストロングゼロ」"
 date: "2017-12-16"
+tags: ['post']
 ---
 
 ![夜景と東京タワー](https://abroller.tech/wp-content/uploads/2017/12/tokyo-1.jpg)

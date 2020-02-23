@@ -1,6 +1,7 @@
 ---
 title: "独りしゅきしゅきお冷やCrew meetupやってた"
 date: "2017-12-14"
+tags: ['post']
 ---
 
 .alignleft { margin-bottom: 1.7rem; margin-right: 1.7rem; } @media(min-width: 768px){ .alignleft { float:left; } }

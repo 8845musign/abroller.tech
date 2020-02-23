@@ -1,6 +1,7 @@
 ---
 title: "人に手料理を食べてもらうのが楽しくて仕方がない"
 date: "2017-12-01"
+tags: ['post']
 ---
 
 ![フライパンで焼き目をつけている牛もも肉](https://abroller.tech/wp-content/uploads/2017/12/IMG_20171201_065907.jpg)

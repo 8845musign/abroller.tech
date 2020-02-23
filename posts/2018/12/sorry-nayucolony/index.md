@@ -1,6 +1,7 @@
 ---
 title: "ナユコロニー2 Advent Calendar 2018延期のお知らせ"
 date: "2018-12-24"
+tags: ['post']
 ---
 
 腹筋しろよ

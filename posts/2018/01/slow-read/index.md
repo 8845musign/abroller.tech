@@ -1,6 +1,7 @@
 ---
 title: "難しい本をたおすために「じっくり読み」してみた"
 date: "2018-01-04"
+tags: ['post']
 ---
 
 ![探偵帽をかぶったルーペと目](https://abroller.tech/wp-content/uploads/2018/01/849b696a2168cfb721b99e161f31ae02.png)
