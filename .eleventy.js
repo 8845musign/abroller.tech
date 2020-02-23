@@ -10,6 +10,11 @@ module.exports = (eleventyConfig) => {
     return dayjs(value).format('YYYY/MM/DD')
   });
 
+  eleventyConfig.addNunjucksFilter("datetimeDate", (value) => {
+    return dayjs(value).format('YYYY-MM-DD')
+  });
+
+
   return {
     dir: {
       input: 'src',

@@ -11,15 +11,15 @@
   <header>
     <a href="/">ABROLLER.TECH</a>
   </header>
+  <main>
+    <article>
+        <h1>{{title}}</h1>
 
-  <article>
-    <main>
-      <h1>{{title}}</h1>
-      <p><time>{{date | dateJp}}</time></p>
-      {{ content | safe }}
-    </main>
-  </article>
+        <p><time datetime="{{item.date | datetimeDate}}">{{date | dateJp}}</time></p>
 
+        {{ content | safe }}
+    </article>
+  </main>
   <footer>(c) 腹筋ローラーの力を信じろ</footer>
 </body>
 </html>
