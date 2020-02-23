@@ -12,24 +12,32 @@
     <a href="/">ABROLLER.TECH</a>
   </header>
   <main>
-    <article>
-        <h1>{{title}}</h1>
+    <article itemscope itemtype="https://schema.org/BlogPosting">
+        <h1 itemprop="headline">{{title}}</h1>
 
-        <p><time datetime="{{item.date | datetimeDate}}">{{date | dateJp}}</time></p>
+        <p><time itemprop="datePublished" datetime="{{item.date | datetimeDate}}">{{date | dateJp}}</time></p>
 
         {{ content | safe }}
 
-        <h2>このブログを作った人</h2>
-        <dl>
-          <dt>名前</dt>
-          <dd>{{author.name}}</dd>
-          <dt>Twitter</dt>
-          <dd><a href="https://twitter.com/{{author.twitter}}">{{author.twitter}}</a></dd>
-        </dl>
+        <section itemprop="author" itemscope itemtype="https://schema.org/Person">
+          <h2>このブログを作った人</h2>
+          <dl>
+            <dt>名前</dt>
+            <dd itemprop="name">{{author.name}}</dd>
+            <dt>Twitter</dt>
+            <dd>
+              <a href="https://twitter.com/{{author.twitter}}">
+                {{author.twitter}}
+                <meta itemprop="url" content="https://twitter.com/{{author.twitter}}">
+              </a>
+            </dd>
+          </dl>
 
-        <p>{{author.description}}</p>
+          <p>{{author.description}}</p>
+        </section>
     </article>
   </main>
+
   <footer>
     (c) 腹筋ローラーの力を信じろ
   </footer>
