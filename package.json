@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/8845musign/abroller.tech#readme",
   "dependencies": {
-    "@11ty/eleventy": "^0.7.1"
+    "@11ty/eleventy": "^0.10.0"
   }
 }
