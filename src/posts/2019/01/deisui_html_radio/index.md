@@ -1,7 +1,7 @@
 ---
 title: "（供養）deisui_html_radioのカンペ"
 date: "2019-01-16"
-tags: ['post']
+tags: ['blog']
 ---
 
 昨年#deisui\_html\_radioに出たときのカンペです。 下書き供養します。

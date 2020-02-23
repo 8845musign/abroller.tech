@@ -1,7 +1,7 @@
 ---
 title: "Japan Accessibility Conference vol.1に参加してきた"
 date: "2017-11-12"
-tags: ['post']
+tags: ['blog']
 ---
 
 腹筋しろよ
