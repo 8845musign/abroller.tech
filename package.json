@@ -16,7 +16,8 @@
     "url": "https://github.com/8845musign/abroller.tech/issues"
   },
   "homepage": "https://github.com/8845musign/abroller.tech#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "@11ty/eleventy": "^0.10.0"
   }
 }
