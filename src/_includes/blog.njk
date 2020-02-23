@@ -20,6 +20,18 @@
         {{ content | safe }}
     </article>
   </main>
-  <footer>(c) 腹筋ローラーの力を信じろ</footer>
+  <footer>
+    <h2>このブログを作った人</h2>
+    <dl>
+      <dt>名前</dt>
+      <dd>{{author.name}}</dd>
+      <dt>Twitter</dt>
+      <dd><a href="https://twitter.com/{{author.twitter}}">{{author.twitter}}</a></dd>
+    </dl>
+
+    <p>{{author.description}}</p>
+
+    <p><small>(c) 腹筋ローラーの力を信じろ</small></p>
+  </footer>
 </body>
 </html>

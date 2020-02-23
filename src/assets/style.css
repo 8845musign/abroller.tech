@@ -113,6 +113,30 @@ hr {
   width: 90%;
 }
 
+footer > h2 {
+  font-size: var(--font-size-l2);
+}
+
+footer > dl {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: var(--spacing-1);
+}
+
+footer > dl > dt {
+  font-weight: bold;
+  text-align: right;
+}
+
+footer > dl > dd {
+  margin-left: 0;
+}
+
+footer > p > small {
+  display: block;
+  margin-top: var(--spacing-3);
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
