@@ -12,6 +12,12 @@ h4,
 h5,
 h6,
 li,
-figcaption {
+figcaption,
+iframe {
   max-width: 60em;
+}
+
+img {
+  max-width: 60em;
+  height: auto;
 }
