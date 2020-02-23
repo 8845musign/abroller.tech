@@ -17,9 +17,11 @@
 
         <p><time itemprop="datePublished" datetime="{{item.date | datetimeDate}}">{{date | dateJp}}</time></p>
 
-        {{ content | safe }}
+        <div itemprop="articleBody">
+          {{ content | safe }}
+        </div>
 
-        <section itemprop="author" itemscope itemtype="https://schema.org/Person">
+        <footer itemprop="author" itemscope itemtype="https://schema.org/Person">
           <h2>このブログを作った人</h2>
           <dl>
             <dt>名前</dt>
@@ -33,8 +35,8 @@
             </dd>
           </dl>
 
-          <p>{{author.description}}</p>
-        </section>
+          <p itemprop="description">{{author.description}}</p>
+        </footer>
     </article>
   </main>
 
