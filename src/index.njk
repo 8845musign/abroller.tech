@@ -1,16 +1,15 @@
 ---
 layout: base.njk
 pagination:
-  data: collections.post
+  data: collections.blog
   size: 50
   reverse: true
-  alias: posts
+  alias: blog
 ---
-{% for post in posts %}
+{% for item in blog %}
   <article>
     <h1>
-      <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+      <a href="{{ item.url | url }}">{{ item.data.title }}</a>
     </h1>
-    {{ post.date }}
   </article>
 {% endfor %}
