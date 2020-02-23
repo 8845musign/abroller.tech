@@ -11,7 +11,7 @@ pagination:
   <li>
       <a href="{{ item.url | url }}">{{ item.data.title }}</a>
       <div>
-        <time>{{item.date}}</time>
+        <time>{{item.date | dateJp}}</time>
       </div>
   </li>
 {% endfor %}
