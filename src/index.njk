@@ -6,10 +6,13 @@ pagination:
   reverse: true
   alias: blog
 ---
+<ol>
 {% for item in blog %}
-  <article>
-    <h1>
+  <li>
       <a href="{{ item.url | url }}">{{ item.data.title }}</a>
-    </h1>
-  </article>
+      <div>
+        <time>{{item.date.toLocaleDateString('ja-JP-u-ca-japanese')}}</time>
+      </div>
+  </li>
 {% endfor %}
+</ol>
