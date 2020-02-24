@@ -2,23 +2,17 @@
 layout: base.njk
 pagination:
   data: collections.blog
-  size: 4
+  size: 50
   reverse: true
   alias: blog
 ---
 <section>
-  <h1 class="visually-hidden">
-    トップ
-  </h1>
-
-  <p>
-    UIデザイナー／フロントエンジニア<br>
-    腹筋コントローラーの力を信じろ
-  </p>
+  <header>
+    <h1>ブログ</h1>
+  </header>
 
   <section>
-    <h2>最新記事</h2>
-
+    <h2>記事</h2>
     <ol>
     {% for item in blog %}
       <li>
