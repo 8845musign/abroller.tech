@@ -6,6 +6,8 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addPassthroughCopy('src/_redirects');
 
+  eleventyConfig.addPassthroughCopy('src/admin');
+
   eleventyConfig.addNunjucksFilter("dateJp", (value) => {
     return dayjs(value).format('YYYY/MM/DD')
   });
