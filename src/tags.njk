@@ -1,0 +1,25 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - blog
+    - tagList
+  addAllPagesToCollections: true
+layout: base.njk
+renderData:
+  title: タグ「{{ tag }}」
+permalink: /tags/{{ tag }}/
+---
+<h1>タグ「{{ tag }}」</h1>
+
+{% set postslist = collections[ tag ] %}
+
+<ol>
+  {% for post in postslist %}
+    <li><a href="{{ post.url | url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a></li>
+  {% endfor %}
+</ol>
+
+<p><a href="{{ '/tags/' | url }}">すべてのタグ</a></p>

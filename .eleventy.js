@@ -2,6 +2,8 @@ const dayjs = require('dayjs')
 require('dayjs/locale/ja')
 
 module.exports = (eleventyConfig) => {
+  eleventyConfig.addCollection("tagList", require("./src/_11ty/getTagList"));
+
   eleventyConfig.addPassthroughCopy('src/assets');
 
   eleventyConfig.addPassthroughCopy('src/_redirects');
