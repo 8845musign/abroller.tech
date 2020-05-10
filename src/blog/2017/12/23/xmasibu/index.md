@@ -1,7 +1,7 @@
 ---
 title: "クリスマス・イブおめでとう！"
 date: "2017-12-23"
-tags: ['blog']
+tags: ['blog', 'AdventCalendar']
 ---
 
 腹筋しろ

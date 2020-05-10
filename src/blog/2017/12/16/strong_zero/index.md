@@ -1,7 +1,7 @@
 ---
 title: "ショートショート「東京とストロングゼロ」"
 date: "2017-12-16"
-tags: ['blog']
+tags: ['blog', 'AdventCalendar']
 ---
 
 ![夜景と東京タワー](/assets/images/2017/12/tokyo-1.jpg)

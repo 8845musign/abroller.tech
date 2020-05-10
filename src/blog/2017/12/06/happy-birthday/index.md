@@ -1,7 +1,7 @@
 ---
 title: "ハッピーバースデー"
 date: "2017-12-06"
-tags: ['blog']
+tags: ['blog', 'AdventCalendar']
 ---
 
 腹筋しろよ。

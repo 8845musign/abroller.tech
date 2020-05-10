@@ -1,7 +1,7 @@
 ---
 title: "スペースコロニー"
 date: "2018-11-30"
-tags: ['blog']
+tags: ['blog', 'AdventCalendar']
 ---
 
 腹筋しろよ

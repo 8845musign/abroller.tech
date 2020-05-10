@@ -1,7 +1,7 @@
 ---
 title: "人に手料理を食べてもらうのが楽しくて仕方がない"
 date: "2017-12-01"
-tags: ['blog']
+tags: ['blog', 'AdventCalendar', 'Cooking']
 ---
 
 ![フライパンで焼き目をつけている牛もも肉](/assets/images/2017/12/IMG_20171201_065907.jpg)

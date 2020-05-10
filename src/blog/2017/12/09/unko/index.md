@@ -1,7 +1,7 @@
 ---
 title: "うんことフォントを楽しむ"
 date: "2017-12-09"
-tags: ['blog']
+tags: ['blog', 'AdventCalendar']
 ---
 
 腹筋しろよ

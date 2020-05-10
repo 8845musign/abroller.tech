@@ -1,7 +1,7 @@
 ---
 title: "VoiceOverクイックガイド チートシート"
 date: "2019-09-26"
-tags: ['blog']
+tags: ['blog', 'Accessibility']
 ---
 
 最近MacのVoiceOverクイックガイドをやっています。

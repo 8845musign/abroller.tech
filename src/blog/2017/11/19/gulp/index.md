@@ -1,7 +1,7 @@
 ---
 title: "「ゼロからはじめるgulp入門書」を読んだ"
 date: "2017-11-19"
-tags: ['blog']
+tags: ['blog', 'JavaScript']
 ---
 
 腹筋しろよ

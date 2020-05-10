@@ -1,7 +1,7 @@
 ---
 title: "つくりおき:ブロッコリー"
 date: "2017-12-09"
-tags: ['blog']
+tags: ['blog', 'Cooking']
 ---
 
 腹筋しろよ
