@@ -10,8 +10,10 @@ ogpType: article
     {% if tags %}
     <ul>
       {% for tag in tags %}
-      {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-      <li><a href="{{ tagUrl | url }}">{{ tag }}</a></li>
+        {% if tag !== 'blog' %}
+          {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+          <li><a href="{{ tagUrl | url }}">{{ tag }}</a></li>
+        {% endif %}
       {% endfor %}
     </ul>
     {% endif %}
