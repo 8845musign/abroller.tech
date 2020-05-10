@@ -1,5 +1,4 @@
 ---
-title: abroller.tech
 ogpType: website
 ---
 
@@ -9,7 +8,11 @@ ogpType: website
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/assets/style.css">
+  {% if title %}
+  <title>{{title}} | ABROLLER.TECH</title>
+  {% else %}
   <title>ABROLLER.TECH</title>
+  {% endif %}
 
   <meta property="og:title" content="{{title}}" />
   <meta property="og:type" content="{{ogpType}}" />
