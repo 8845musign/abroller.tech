@@ -4,7 +4,9 @@ date: "2017-12-14"
 tags: ['blog', 'AdventCalendar']
 ---
 
+<style>
 .alignleft { margin-bottom: 1.7rem; margin-right: 1.7rem; } @media(min-width: 768px){ .alignleft { float:left; } }
+</style>
 
 ![一同に揃ったお冷たち](/assets/images/2017/12/ohiya_title.jpg)
 
