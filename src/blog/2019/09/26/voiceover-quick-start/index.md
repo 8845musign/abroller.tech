@@ -9,7 +9,7 @@ tags: ['blog', 'Accessibility']
 ガイドの途中で紹介されるコマンドが覚えられないので１ページにおきます。
 
 - VO
-    - Shift+Optを同時押し
+    - Control+Optを同時押し
 - VO+Command+Shift+右矢印を何回か押す
     - 音声、音声速度、ピッチ、音量、抑揚の変更
 - VO+Shift+下矢印
