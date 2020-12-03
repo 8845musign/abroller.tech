@@ -19,8 +19,8 @@
   "homepage": "https://github.com/8845musign/abroller.tech#readme",
   "dependencies": {},
   "devDependencies": {
-    "@11ty/eleventy": "^0.10.0",
+    "@11ty/eleventy": "^0.11.1",
     "clean-css": "^4.2.3",
-    "dayjs": "^1.8.26"
+    "dayjs": "^1.9.6"
   }
 }
