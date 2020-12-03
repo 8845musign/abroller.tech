@@ -17,6 +17,8 @@
   --font-size-l3: calc(1rem * 8 / 5);
   --font-size-l4: calc(1rem * 8 / 4);
   --font-size-l5: calc(1rem * 8 / 3);
+
+  --color-heading: #3e2723;
 }
 
 
@@ -56,11 +58,22 @@ figcaption {
   max-width: 40em;
 }
 
-.SiteHeader__logotypo {
+.SiteHeader__logotypo,
+.SiteHeader__logotypo:visited {
   font-size: var(--font-size-l5);
   font-family: 'Exo 2', sans-serif;
+  color: var(--color-heading);
+  text-decoration: none;
 }
 
+.SiteHeader__logotypo:active {
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: 2px dotted currentColor;
+  outline-offset: var(--spacing-1);
+}
 p {
   line-height: 1.7;
 }
@@ -75,7 +88,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #3e2723;
+  color: var(--color-heading);
   font-weight: bold;
   line-height: 1.3333;
 }
