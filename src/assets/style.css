@@ -28,6 +28,11 @@
   box-sizing: border-box;
 }
 
+/*
+ * Element
+ */
+
+
 html {
   font-family: 'Noto Sans JP', sans-serif;
   color: #333;
@@ -56,18 +61,6 @@ h6,
 li,
 figcaption {
   max-width: 40em;
-}
-
-.SiteHeader__logotypo,
-.SiteHeader__logotypo:visited {
-  font-size: var(--font-size-l5);
-  font-family: 'Exo 2', sans-serif;
-  color: var(--color-heading);
-  text-decoration: none;
-}
-
-.SiteHeader__logotypo:active {
-  text-decoration: underline;
 }
 
 a:focus {
@@ -160,6 +153,26 @@ footer > p > small {
   display: block;
   margin-top: var(--spacing-3);
 }
+
+/*
+ * Component
+ */
+
+.SiteHeader__logotypo,
+.SiteHeader__logotypo:visited {
+  font-size: var(--font-size-l5);
+  font-family: 'Exo 2', sans-serif;
+  color: var(--color-heading);
+  text-decoration: none;
+}
+
+.SiteHeader__logotypo:active {
+  text-decoration: underline;
+}
+
+/*
+ * Utility
+ */
 
 .visually-hidden {
   position: absolute;
