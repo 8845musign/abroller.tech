@@ -13,10 +13,12 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <!-- REVEAL CSS-->
+  <link href="http://fonts.googleapis.com/earlyaccess/notosansjp.css">
+
   <link rel="stylesheet" href="libs/reveal.js/font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="libs/reveal.js/3.8.0/css/reveal.css">
 
-  <link rel="stylesheet" href="libs/reveal.js/3.8.0/css/theme/black.css" id="theme">
+  <link rel="stylesheet" href="libs/reveal.js/3.8.0/css/theme/white.css" id="theme">
 
 
   <link rel="stylesheet" href="libs/reveal.js/3.8.0/plugin/title-footer/title-footer-mod.css" />
@@ -253,6 +255,22 @@
       opacity: 0.75 !important;
       font-size: 50% !important;
     }
+
+    html {
+      font-family: 'Noto Sans JP', sans-serif;
+    }
+
+    .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+      font-family: inherit;
+      text-transform: none;
+    }
+
+    code {
+      display: inline-block;
+      padding: 0.1em 0.25em;
+      border-radius: 0.25em;
+      background-color: #EFEFEF;
+    }
   </style>
   <script>
     if (window.location.search.match(/print-pdf-now/gi)) {
@@ -273,7 +291,7 @@
 
 
 
-        <section >
+        <section data-background-color="#EDE5F5">
 
             <h1><a id="user-content-新しいcss、新しいレイアウト。コンテナクエリを試す" class="anchor" href="#新しいcss、新しいレイアウト。コンテナクエリを試す" aria-hidden="true"></a>新しいCSS、新しいレイアウト。コンテナクエリを試す</h1>
 
@@ -328,13 +346,12 @@
 
 
 
-        <section >
+        <section>
 
             <h2><a id="user-content-お話しすること" class="anchor" href="#お話しすること" aria-hidden="true"></a>お話しすること</h2>
 <ul>
 <li>メディアクエリの問題</li>
 <li>コンテナクエリ</li>
-<li>CSSを学ぶということ</li>
 </ul>
 
             </section>
@@ -343,59 +360,9 @@
 
 
 
-        <section >
+        <section data-background-color="#EDE5F5">
 
             <h2><a id="user-content-メディアクエリの問題" class="anchor" href="#メディアクエリの問題" aria-hidden="true"></a>メディアクエリの問題</h2>
-
-            </section>
-
-
-
-
-
-        <section >
-
-            <img class="r-stretch" src="./images/様々なコンテキストで現れるコンポーネント.png">
-<p>引用元: <a href="https://wicg.github.io/cq-usecases/">https://wicg.github.io/cq-usecases/</a></p>
-
-            </section>
-
-
-
-
-
-        <section >
-
-            <ul>
-<li>メディアクエリとコンポーネントの組み合わせの悪さ</li>
-<li>同じようなコンポーネントでも、レイアウトの中で出現する場所によって別に定義しなくてはならないケースがある。</li>
-</ul>
-
-            </section>
-
-
-
-
-
-        <section >
-
-            <ul>
-<li>本来全体と詳細で関心は異なるはずだが、メディアクエリという一つの土俵で解決しなくてはならない。</li>
-<li>そのため、メディアクエリという作業台はどんどん散らかっていく。</li>
-</ul>
-
-            </section>
-
-
-
-
-
-        <section >
-
-            <ul>
-<li>モジュラー指向のコンポーネントと相性が悪い</li>
-<li>コンポーネントは特定のコンテキストに依存しないほうが、再利用性が向上する</li>
-</ul>
 
             </section>
 
@@ -421,8 +388,7 @@
 
         <section >
 
-            <h2><a id="user-content-メディアクエリとコンポーネントの組み合わせの悪さ" class="anchor" href="#メディアクエリとコンポーネントの組み合わせの悪さ" aria-hidden="true"></a>メディアクエリとコンポーネントの組み合わせの悪さ</h2>
-<p>コンポーネントが自分の周囲のコンテキスとに応じてレイアウトを変えられればいいのに……。</p>
+            <p>複雑……</p>
 
             </section>
 
@@ -431,6 +397,66 @@
 
 
         <section >
+
+            <img class="r-stretch" src="./images/様々なコンテキストで現れるコンポーネント.png">
+<p>引用元: <a href="https://wicg.github.io/cq-usecases/">https://wicg.github.io/cq-usecases/</a></p>
+
+            </section>
+
+
+
+
+
+        <section >
+
+            <ul>
+<li>メディアクエリとコンポーネントの組み合わせの悪さ</li>
+<li>同じようなコンポーネントでも、レイアウトの中で出現する場所によって別に定義しなくてはならないケースがある</li>
+</ul>
+
+            </section>
+
+
+
+
+
+        <section >
+
+            <ul>
+<li>本来<strong>全体</strong>と<strong>詳細</strong>で関心事は異なるはずなのに、メディアクエリという一つの土俵で解決しなくてはならない</li>
+<li>そのため、メディアクエリという作業台はどんどん散らかっていく</li>
+</ul>
+
+            </section>
+
+
+
+
+
+        <section >
+
+            <ul>
+<li>コンポーネントは<strong>特定のコンテキストに依存しない</strong>ほうが、再利用性が向上する</li>
+<li>モジュラー指向のコンポーネントと相性が悪い</li>
+</ul>
+
+            </section>
+
+
+
+
+
+        <section >
+
+            <p>コンポーネント自身が周囲のコンテキスとに応じてレイアウトを変えられればいいのに……。</p>
+
+            </section>
+
+
+
+
+
+        <section data-background-color="#EDE5F5">
 
             <h2><a id="user-content-コンテナクエリ" class="anchor" href="#コンテナクエリ" aria-hidden="true"></a>コンテナクエリ</h2>
 <p><a href="https://drafts.csswg.org/css-contain-3/">https://drafts.csswg.org/css-contain-3/</a></p>
@@ -459,7 +485,7 @@
         <section >
 
             <blockquote>
-<p><strong>if I had container queries available, 90% of the media queries I write would be container queries.</strong>
+<p><strong>if I had container queries available, 90% of the media queries I write would be container queries.</strong><br>
 <a href="https://css-tricks.com/container-query-discussion/">https://css-tricks.com/container-query-discussion/</a></p>
 </blockquote>
 
@@ -595,6 +621,18 @@
 </ul>
 </li>
 <li>コンテナクエリの動作においては、クエリで対応する対象を明示する</li>
+</ul>
+
+            </section>
+
+
+
+
+
+        <section >
+
+            <h3><a id="user-content-contain-プロパティ-1" class="anchor" href="#contain-プロパティ-1" aria-hidden="true"></a><code>contain</code>プロパティ</h3>
+<ul>
 <li><code>layout</code>と<code>style</code>は今のところ必須（<code>style</code>が抜けてて動かないサンプルコードがある）</li>
 <li><code>inline-size</code>は水平軸のクエリに対応することを表す
 <ul>
@@ -616,6 +654,18 @@
 <li>例: スペースに応じて縦積み、横並べが変化するラベルとテキストフィールドをコンポーネントとして定義</li>
 <li>入力項目によっては、最適な幅が変わる</li>
 <li>項目ごとにレイアウトがバラバラになる可能性がある……。</li>
+</ul>
+
+            </section>
+
+
+
+
+
+        <section >
+
+            <h2><a id="user-content-うまくいかなさそうなケースも-1" class="anchor" href="#うまくいかなさそうなケースも-1" aria-hidden="true"></a>うまくいかなさそうなケースも</h2>
+<ul>
 <li>複数のコンテナクエリによって実装されたコンポーネントを、同期的にレイアウトするのは難しいかもしれない
 <ul>
 <li>コンポーネントのコンテナを選択的にできれば何とかなりそう</li>
@@ -632,11 +682,29 @@
 
         <section >
 
-            <h2><a id="user-content-コンテナクエリを使えば本質的な関心に集中ができる" class="anchor" href="#コンテナクエリを使えば本質的な関心に集中ができる" aria-hidden="true"></a>コンテナクエリを使えば本質的な関心に集中ができる</h2>
-<ul>
-<li>デザイナーはコンポーネントにとって最適なレイアウトアルゴリズムをデザインする</li>
-<li>ページが表示される際に、コンテナクエリによって記述されたアルゴリズムに基づいてコンポーネント自身が決める</li>
-<li>そして、メディアクエリは全体のレイアウトのみに集中すればOK</li>
+            <p>とはいえ</p>
+
+            </section>
+
+
+
+
+
+        <section >
+
+            <p>コンテナクエリを使えば本質的な関心に集中ができる</p>
+
+            </section>
+
+
+
+
+
+        <section >
+
+            <ul>
+<li>コンポーネントにとって最適なレイアウトアルゴリズムをデザイン</li>
+<li>どう表示されるかはアルゴリズムを使って<strong>コンポーネント自身が決める</strong></li>
 <li>モジュール式でデザインを進めることが多いWebアプリケーションとは相性が良い</li>
 </ul>
 
@@ -646,7 +714,7 @@
 
 
 
-        <section >
+        <section data-background-color="#EDE5F5">
 
             <h2><a id="user-content-css-gridでも似たようなことが可能" class="anchor" href="#css-gridでも似たようなことが可能" aria-hidden="true"></a>CSS Gridでも似たようなことが可能</h2>
 
@@ -707,8 +775,8 @@
 
             <ul>
 <li>メディアクエリを使用せずにレスポンシブ</li>
-<li>コンポーネントに最適な幅を定義することで、アルゴリズム自身がレイアウトを決める</li>
-<li>ビューポートではなくコンポーネントに着目してレイアウトしている点でコンテナクエリと似ている</li>
+<li>コンポーネントごとの最適な幅を定義することで、アルゴリズム自身がレイアウトを決定</li>
+<li>ビューポートではなく、コンポーネント自体に着目している点でコンテナクエリと似ている</li>
 </ul>
 
             </section>
@@ -719,8 +787,27 @@
 
         <section >
 
+            <p>トップダウンからボトムアップへの発想の転換</p>
+
+            </section>
+
+
+
+
+
+        <section data-background-color="#EDE5F5">
+
             <h2><a id="user-content-cssを学べば、デザインのやり方が変わる" class="anchor" href="#cssを学べば、デザインのやり方が変わる" aria-hidden="true"></a>CSSを学べば、デザインのやり方が変わる</h2>
-<ul>
+
+            </section>
+
+
+
+
+
+        <section >
+
+            <ul>
 <li>レイアウトのための道具が増えている。Flexbox、CSS Grid、コンテナクエリ……。</li>
 <li>どれも、Webの事情を踏まえた上で仕様が考えられている</li>
 <li>効率的な実装と多様なユーザーのデバイスへの対応を両立するための良い制約になる</li>
@@ -736,8 +823,8 @@
         <section >
 
             <h2><a id="user-content-intrinsic-web-design" class="anchor" href="#intrinsic-web-design" aria-hidden="true"></a>Intrinsic Web Design</h2>
-<p>新しいCSSを基に実現できるデザインを<strong>Intrinsic Web Design</strong>と<a href="https://twitter.com/jensimmons">Jen Simmons</a>は名付けた</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AMPKmh98XLY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://twitter.com/jensimmons">Jen Simmons</a>は、新しいCSSを基に実現できるデザインを<strong>Intrinsic Web Design</strong>と名付けた</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jBwBACbRuGY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </section>
 
 
@@ -766,6 +853,25 @@
 <li><a href="https://gist.github.com/davatron5000/bbede54cf189bf53e4de">The State of Container Queries</a></li>
 <li><a href="https://www.smashingmagazine.com/2021/05/css-container-queries-use-cases-migration-strategies/">CSS Container Queries: Use-Cases And Migration Strategies</a></li>
 <li><a href="https://mxb.dev/blog/container-queries-web-components/">Container Queries in Web Components</a></li>
+</ul>
+
+            </section>
+
+
+
+
+
+        <section >
+
+            <h2><a id="user-content-polyfill" class="anchor" href="#polyfill" aria-hidden="true"></a>Polyfill</h2>
+<ul>
+<li><a href="https://github.com/tysonmatanich/elementQuery">elementQuery</a></li>
+<li><a href="https://github.com/marcj/css-element-queries">css-element-queries</a></li>
+<li><a href="https://github.com/Snugug/eq.js">eq.js</a></li>
+<li><a href="https://github.com/filamentgroup/elementary">Elementary</a></li>
+<li><a href="https://github.com/eqcss/eqcss/">EQCSS</a></li>
+<li><a href="https://github.com/ausi/cq-prolyfill">cq-prolyfill</a></li>
+<li><a href="https://github.com/Heydon/watched-box">watched-box</a></li>
 </ul>
 
             </section>
@@ -827,9 +933,9 @@
 
 
 
-        <section >
+        <section data-background-color="#EDE5F5">
 
-            <h2><a id="user-content-ご清聴ありがとうございました" class="anchor" href="#ご清聴ありがとうございました" aria-hidden="true"></a>ご清聴<br>ありがとうございました!</h2>
+            <h2><a id="user-content-ご清聴-ありがとうございました" class="anchor" href="#ご清聴-ありがとうございました" aria-hidden="true"></a>ご清聴<br>ありがとうございました!</h2>
 
             </section>
 
