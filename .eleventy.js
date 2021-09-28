@@ -21,6 +21,8 @@ module.exports = (eleventyConfig) => {
 
   eleventyConfig.addPassthroughCopy('src/admin');
 
+  eleventyConfig.addPassthroughCopy('slides');
+
   eleventyConfig.addNunjucksFilter("dateJp", (value) => {
     return dayjs(value).format('YYYY/MM/DD')
   });
