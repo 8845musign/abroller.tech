@@ -18,12 +18,12 @@
   },
   "homepage": "https://github.com/8845musign/abroller.tech#readme",
   "dependencies": {
-    "markdown-it": "^12.0.4",
-    "markdown-it-anchor": "^6.0.1"
+    "markdown-it": "^12.2.0",
+    "markdown-it-anchor": "^8.3.1"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.1",
-    "clean-css": "^4.2.3",
-    "dayjs": "^1.9.6"
+    "@11ty/eleventy": "^0.12.1",
+    "clean-css": "^5.2.0",
+    "dayjs": "^1.10.7"
   }
 }
