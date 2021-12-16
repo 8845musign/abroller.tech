@@ -1,7 +1,7 @@
 ---
 title: "最近の購入した本の感想"
 date: "2020-12-03"
-tags: ['Reading']
+tags: ['blog', 'Reading']
 ---
 
 腹筋しろよ。

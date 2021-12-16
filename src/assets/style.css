@@ -233,3 +233,8 @@ thead {
 .note > *:last-child {
   margin-bottom: 0;
 }
+
+.emphasis-mark {
+  font-style: normal;
+  text-emphasis-style: sesame;
+}
