@@ -18,7 +18,7 @@
   --font-size-l4: calc(1rem * 8 / 4);
   --font-size-l5: calc(1rem * 8 / 3);
 
-  --color-heading: #3e2723;
+  --color-heading: #333;
 }
 
 
@@ -48,7 +48,7 @@ header {
   margin-bottom: var(--spacing-4);
   padding-top: var(--spacing-4);
   padding-bottom: var(--spacing-4);
-  border-bottom: 1px solid #5d4037;
+  border-bottom: 1px solid #333;
 }
 
 p,
