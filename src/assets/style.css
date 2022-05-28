@@ -213,24 +213,24 @@ thead {
   background-color: #f5f5f5;
 }
 
-.note {
+.Note {
   margin-top: var(--spacing-3);
   margin-bottom: var(--spacing-3);
   padding: var(--spacing-2);
   border: 3px solid #eeeeee;
 }
 
-.note > h1,
-.note > h2,
-.note > h3,
-.note > h4,
-.note > h5,
-.note > h6 {
+.Note > h1,
+.Note > h2,
+.Note > h3,
+.Note > h4,
+.Note > h5,
+.Note > h6 {
   font-size: var(--font-size-l1);
   margin-top: 0;
 }
 
-.note > *:last-child {
+.Note > *:last-child {
   margin-bottom: 0;
 }
 
