@@ -31,8 +31,6 @@
 /*
  * Element
  */
-
-
 html {
   font-family: 'Noto Sans JP', sans-serif;
   color: #333;
@@ -40,15 +38,16 @@ html {
 }
 
 body {
-  padding-left: calc(var(--spacing-1) + 5vw);
+  margin: 0;
   padding-right: calc(var(--spacing-1) + 5vw);
+  padding-left: calc(var(--spacing-1) + 5vw);
+  font-kerning: none;
 }
 
 header {
-  margin-bottom: var(--spacing-4);
-  padding-top: var(--spacing-4);
-  padding-bottom: var(--spacing-4);
-  border-bottom: 1px solid #333;
+  margin-bottom: var(--spacing-);
+  padding-top: var(--spacing-5);
+  padding-bottom: var(--spacing-5);
 }
 
 p,
@@ -84,22 +83,29 @@ h6 {
   color: var(--color-heading);
   font-weight: bold;
   line-height: 1.3333;
+  font-kerning: normal;
+  font-feature-settings: "palt" 1;
+  letter-spacing: 0.05em;
 }
 
 h1 {
-  font-size: var(--font-size-l4);
+  font-size: var(--font-size-l1);
 }
 
 h2 {
-  font-size: var(--font-size-l3);
+  font-size: var(--font-size-l1);
 }
 
 h3 {
-  font-size: var(--font-size-l2);
+  font-size: var(--font-size-l1);
 }
 
 h4 {
   font-size: var(--font-size-l1);
+}
+
+main {
+  overflow-wrap: break-word;
 }
 
 img {
@@ -156,12 +162,20 @@ footer > p > small {
 
 /*
  * Component
- */
+ */ 
+.SiteHeader__logotypo {
+  font-family: 'Exo 2', sans-serif;
+  font-size: var(--font-size-l1);
+}
+
+@media (min-width: 560px) {
+  .SiteHeader__logotypo {
+    font-size: var(--font-size-l2);
+  }
+}
 
 .SiteHeader__logotypo,
 .SiteHeader__logotypo:visited {
-  font-size: var(--font-size-l5);
-  font-family: 'Exo 2', sans-serif;
   color: var(--color-heading);
   text-decoration: none;
 }
@@ -228,6 +242,38 @@ thead {
 .Note > h6 {
   font-size: var(--font-size-l1);
   margin-top: 0;
+}
+
+.o-nav {
+  padding-top: var(--spacing-2);
+  padding-bottom: var(--spacing-2);
+}
+
+.o-nav > ul {
+  list-style: none;
+  display: flex;
+  gap: var(--spacing-1);
+  padding-left: 0;
+}
+
+.o-nav > ul > li {
+  margin-top: 0;
+}
+
+.o-post-heading-under {
+  list-style: none;
+  display: flex;
+  gap: var(--spacing-1);
+  padding-left: 0;
+}
+
+.o-post-heading-under > li {
+  margin-top: 0;
+}
+
+.o-post-heading-under > li > a {
+  color: #333;
+  text-decoration: underline;
 }
 
 .Note > *:last-child {

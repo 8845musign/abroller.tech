@@ -5,18 +5,18 @@ ogpType: article
 <article itemscope itemtype="https://schema.org/BlogPosting">
     <h1 itemprop="headline">{{title}}</h1>
 
-    <p><time itemprop="datePublished" datetime="{{item.date | datetimeDate}}">{{date | dateJp}}</time></p>
+    <ul class="o-post-heading-under">
+      <li><time itemprop="datePublished" datetime="{{item.date | datetimeDate}}">{{date | dateJp}}</time></li>
 
-    {% if tags %}
-    <ul>
-      {% for tag in tags %}
-        {% if tag !== 'blog' %}
-          {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-          <li><a href="{{ tagUrl | url }}">{{ tag }}</a></li>
-        {% endif %}
-      {% endfor %}
+      {% if tags %}
+        {% for tag in tags %}
+          {% if tag !== 'blog' %}
+            {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+            <li><a href="{{ tagUrl | url }}">{{ tag }}</a></li>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
     </ul>
-    {% endif %}
 
     <div itemprop="articleBody">
       {{ content | safe }}
